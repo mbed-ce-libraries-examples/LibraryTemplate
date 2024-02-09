@@ -12,7 +12,7 @@ Template for a new Library show just structure, basic Cmake configuration and re
 ## How to start
 1. Create a new project according to [MbedCE instructions](https://github.com/mbed-ce/mbed-os/wiki)
 2. Add this as submodule to your project via `git submodule add --depth 1 https://github.com/mbed-ce-libraries-examples/LibraryTemplate LibraryTemplate`
-3. The top level `CmakeList.txt` (in root of your project) should be modified according to [this wiki page](https://github.com/mbed-ce/mbed-os/wiki/MbedOS-configuration#libraries-in-your-application)
+3. The top level `CMakeList.txt` (in root of your project) should be modified according to [this wiki page](https://github.com/mbed-ce/mbed-os/wiki/MbedOS-configuration#libraries-in-your-application)
 4. Create your main.cpp file and copy & Paste example code below.
 5. Build the project
 
