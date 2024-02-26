@@ -53,3 +53,6 @@ Some text about this library...
 
 ### Status: 
 This libarary was tested with Nucleo-F446RE, VS-Code under Win11, GCC 12.3 and MbedCE library
+
+## Important notes:`
+* Any library should not contain `ThisThread::sleep_for()` because then is not possible to use the lib in the baremetal profile. So rather use `thread_sleep_for()`
