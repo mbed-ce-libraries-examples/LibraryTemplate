@@ -1,5 +1,5 @@
 <!--
-  If you have any question about this then rise an issue https://github.com/mbed-ce-libraries-examples/LibraryTemplate/issues
+  If you have any question about this then raise an issue at https://github.com/mbed-ce-libraries-examples/LibraryTemplate/issues
   
   Under this block replace the text with a name of new library and some short description.
 -->
@@ -11,9 +11,9 @@ Template for a new Library show just structure, basic Cmake configuration and re
 -->
 ## How to start
 1. Create a new project according to [MbedCE instructions](https://github.com/mbed-ce/mbed-os/wiki)
-2. Add this as submodule to your project via `git submodule add --depth 1 https://github.com/mbed-ce-libraries-examples/LibraryTemplate LibraryTemplate`
-3. The top level `CMakeList.txt` (in root of your project) should be modified according to [this wiki page](https://github.com/mbed-ce/mbed-os/wiki/MbedOS-configuration#libraries-in-your-application)
-4. Create your main.cpp file and copy & Paste example code below.
+2. Add this as submodule to your project via `git submodule add https://github.com/mbed-ce-libraries-examples/LibraryTemplate LibraryTemplate`
+3. The top level `CMakeLists.txt` (in root of your project) should be modified according to [this wiki page](https://github.com/mbed-ce/mbed-os/wiki/MbedOS-configuration#libraries-in-your-application)
+4. Create your main.cpp file and copy & paste example code below.
 5. Build the project
 
 
@@ -52,7 +52,7 @@ int main()
 Some text about this library...
 
 ### Status: 
-This libarary was tested with Nucleo-F446RE, VS-Code under Win11, GCC 12.3 and MbedCE library
+This library was tested with Nucleo-F446RE, VS-Code under Win11, GCC 12.3 and MbedCE library
 
-## Important notes:`
+## Important notes:
 * Any library should not contain `ThisThread::sleep_for()` because then is not possible to use the lib in the baremetal profile. So rather use `thread_sleep_for()`
